@@ -17,3 +17,5 @@ def run_guessing_game
     puts "The computer guessed #{random_num}."
   end
 end
+
+run_guessing_game
