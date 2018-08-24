@@ -7,7 +7,7 @@ def run_guessing_game
   random_num = rand(1..6).to_s
   puts "Guess a number between 1 and 6."
   user_input = gets.downcase.chomp
-  
+
   if user_input == random_num
     puts "You guessed the correct number!"
     return
@@ -19,4 +19,4 @@ def run_guessing_game
   end
 end
 
-run_guessing_game
+#run_guessing_game
