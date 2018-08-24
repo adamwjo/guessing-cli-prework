@@ -13,7 +13,7 @@ def run_guessing_game
     return
   elsif user_input == 'exit'
     puts "Goodbye!"
-    break
+    return
   elsif user_input != random_num || 'exit'
     puts "The computer guessed #{random_num}."
   end
