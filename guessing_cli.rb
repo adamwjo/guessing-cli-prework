@@ -1,6 +1,9 @@
-# Code your solution here!
+
+require "pry"
+
 def run_guessing_game
   user_input = ""
+  binding.pry
   random_num = rand(1..6).to_s
   puts "Guess a number between 1 and 6."
   user_input = gets.downcase.chomp
