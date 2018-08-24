@@ -12,6 +12,6 @@ def run_guessing_game
     return
   else
     puts "The computer guessed #{random_num}."
-    returnxs
+    return
   end
 end
